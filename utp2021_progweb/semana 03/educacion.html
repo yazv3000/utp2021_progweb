@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación</title>
+</head>
+<body>
+    <header>
+        <h1>Bill Gates</h1>
+        <ul>
+            <li><a href="index.html">Hoja de Vida</a></li>
+            <li><a href="educacion.html">Curriculum Vitae</a></li>
+            <li><a href="experiencia.html">Resumen Curricular</a></li>
+        </ul>
+    </header>
+    <main>
+        <h3>Educación</h3>
+        <table border="1">
+            <tr style="font-weight: bold;">
+                <td>Año</td>
+                <td>Intitución</td>
+                <td>Lugar</td>
+                <td>¿Culminó?</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>UNI</td>
+                <td>Cusco</td>
+                <td>SÍ</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>UTP</td>
+                <td>Arequipa</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>UNI</td>
+                <td>Lima</td>
+                <td>SÍ</td>
+            </tr>
+        </table>
+        
+        <h3>Agregar estudios</h3>
+        <form id="formulario" action="#">
+            <!--<p><input type="date"></p>-->
+            <p><input type="number" name="año" value="2016" min="1900"></p>
+            <p><strong>Institución: </strong><input type="text" placeholder="Ingrese su institución"></p>
+            <p><strong>Lugar: </strong><textarea name="lugar"></textarea></p>
+            <p><strong>Lugar: </strong>
+                <input type="radio" name="si-no" value="si">si
+                <input type="radio" name="si-no" value="no">no
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>© Propiedad Bill</p>
+        <p>Correo electrónico: <a href="http://">bill@hotmail.com</a></p>
+    </footer>
+</body>
+</html>
